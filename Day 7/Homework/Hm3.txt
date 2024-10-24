@@ -1,0 +1,8 @@
+Debugging არის bug-ების შესწორება
+
+case-sensitive-აქვს მნიშვნელობა პატარათი ვწერთ თუ დიდით
+case-insensitive-არაა აქვს მნიშვნელობა დიდი სიმბოლოთი ვწერთ თუ პატარა სიმბოლოთი
+
+case-insensitive ენები:html,spl,pascal.
+case-sensitive ენები: Python,C++,Javascript
+
