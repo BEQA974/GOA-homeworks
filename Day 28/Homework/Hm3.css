@@ -1,0 +1,11 @@
+header{
+    background-color: rgb(9, 168, 196);text-align: center; font-size: larger;
+}
+
+main{
+    background-color: rgb(9, 168, 196); text-align: center; color: black;
+}
+
+section{
+    background-color: rgb(9, 168, 196);text-align: left;border:solid 5px;
+}
