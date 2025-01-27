@@ -1,0 +1,1 @@
+#6) Write a function that takes a sentence, a word, and an index, and inserts the word into the sentence at the given index.

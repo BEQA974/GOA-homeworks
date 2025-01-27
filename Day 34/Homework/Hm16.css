@@ -1,0 +1,8 @@
+@font-face {
+    font-family:'CustomFont' ;
+    src: url(PlaywriteIN-Regular.ttf);
+}
+
+h1{
+    font-family: 'CustomFont';
+}
