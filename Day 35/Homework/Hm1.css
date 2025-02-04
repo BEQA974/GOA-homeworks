@@ -1,0 +1,9 @@
+a:link{
+    color: rgb(0, 240, 92);
+}
+a:hover{
+    color: rgb(179, 255, 0);
+}
+a:active{
+    color: rgb(150, 255, 190);
+}

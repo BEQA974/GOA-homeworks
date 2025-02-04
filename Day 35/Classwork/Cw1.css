@@ -1,0 +1,12 @@
+a:hover{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(255, 0, 0);
+}
+
+a:active{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(0, 255, 13);
+}
+
