@@ -1,0 +1,4 @@
+li:first-child,
+li:last-child {
+    font-weight: bold;
+}
