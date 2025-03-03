@@ -1,0 +1,42 @@
+body {
+    border: solid 1px;
+    width: 200px;
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: aqua;
+    color: white;
+    padding: 10px;
+    
+}
+
+article{
+    background-color: red;
+    color: white;
+    height: 40px;
+    padding: 10px;
+}
+
+main{
+    background-color: green;
+    color:white;
+    height: 40px;
+    padding: 10px;
+    
+}
+
+aside{
+    background-color: purple;
+    color:white;
+    height: 40px;
+    padding: 10px;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+}

@@ -6,5 +6,6 @@ dict1 = {
     "goa-student": "True",
 }
 
-# get() მეთოდი ავტომატურად ამოწმებს key-ს არსებობას
-print(dict1.get("name", "არ არის"))
+dict1["city"] = "Tbilisi"
+
+print(dict1)

@@ -1,0 +1,33 @@
+#dd1{
+    justify-content: start;
+    align-items: start;
+    background-color: rgb(0, 255, 21);
+    height: 10vh;
+}
+
+#dd2{
+    background-color: white;
+    height: 30vh;
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dd3{
+    margin-left: 1700px;
+    background-color: antiquewhite;
+    width: 10vh;
+}
+
+#dd4{
+    background-color: mediumaquamarine;
+    width: 10vh;
+}
+
+#dd5{
+    background-color: rgb(0, 255, 21);
+    height: 10vh;
+}
+

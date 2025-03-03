@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    font-size: xx-large;
+    background-color: orangered;
+    padding: 20px 
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+article{
+    background-color: blue;
+    height: 80vh;
+    width: 50vh;
+}
+
+main{
+    background-color: purple;
+    height: 80vh;
+    width: 200vh;
+
+}
+
+
+aside{
+    background-color: green;
+    height: 80vh;
+    width: 50vh;
+}
+
+footer{
+    text-align: center;
+    font-size: xx-large;
+    background-color: plum;
+    padding: 20px;
+}

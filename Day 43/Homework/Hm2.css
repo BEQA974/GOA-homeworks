@@ -1,0 +1,31 @@
+body {
+    
+    background-color: black;  
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #08293c; 
+}
+
+
+#logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    margin:15px;
+}
+
+#orange{
+    color:orange;
+} 

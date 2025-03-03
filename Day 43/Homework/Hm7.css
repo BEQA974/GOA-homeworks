@@ -1,0 +1,36 @@
+#nam1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#dd1{
+    border: 5px  solid black;
+    padding: 50px ;
+    background-color: purple;
+    color: white;
+}
+
+#dd2{
+    border: 5px  solid black;
+    padding: 50px ;
+    background-color: greenyellow;
+    color: white;
+}
+
+#dd3{
+    border: 5px  solid black;
+    padding: 50px ;
+    background-color: red;
+    color: white;
+}
+
+#dd4{
+    border: 5px  solid black;
+    padding: 50px ;
+    background-color: orange;
+    color: white;
+}
