@@ -1,0 +1,26 @@
+#div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    background-color: white;
+}
+
+.items{
+    border: solid black 5px;
+    background-color: crimson;
+    color: white;
+    padding: 50px;
+    flex-grow: 1;
+}
+
+div{
+    border: solid black 5px;
+    background-color: crimson;
+    color: white;
+    padding: 50px;
+    flex-grow: 2;
+}
+
+

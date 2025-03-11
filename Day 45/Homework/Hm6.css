@@ -1,0 +1,22 @@
+#div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; 
+    height: 100vh;
+    background-color: white;
+}
+
+.items {
+    border: 5px black solid;
+    padding: 60px;
+    background-color: chartreuse;
+    color: white;
+}
+
+#item2 {
+    align-self: flex-end; 
+    border: 5px black solid;
+    padding: 60px;
+    background-color: chartreuse;
+    color: white;
+}

@@ -1,0 +1,16 @@
+#div1 {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.items {
+    border: 5px black solid;
+    padding: 40px;
+    background-color: chartreuse;
+    color: white;
+    width: 150px; 
+}
