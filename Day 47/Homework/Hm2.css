@@ -1,0 +1,17 @@
+div{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+    height: 100vh; 
+    margin: 0;
+}
+
+#D1{
+    background-image: url(image.png);
+    background-position: center;
+    background-size: cover;
+    border: solid black 5px;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}

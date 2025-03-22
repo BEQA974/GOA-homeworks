@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+#d1{
+    background-color: aqua;
+    border: solid black 5px;
+    height: 100px;
+    width: 100px;
+}

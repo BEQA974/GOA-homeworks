@@ -1,0 +1,16 @@
+#parent{
+    width: 700px;
+    height: 700px;
+    background-color: brown;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#child{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+}

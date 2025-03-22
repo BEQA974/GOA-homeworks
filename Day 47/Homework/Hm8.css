@@ -1,0 +1,32 @@
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    position: relative;
+    width: 800px;
+    height: 800px;
+}
+
+.box{
+    border: solid black 5px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#child1{
+    background-color: blue;
+    top:  200px ;
+    left: 240px;
+}
+
+#child2{
+    background-color: brown;
+    top:  200px ;
+    right: 240px;
+}
