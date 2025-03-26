@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+p{
+    color: black;
+    transition: transform 0.5s;
+}
+
+
+P:hover{
+    color: brown;
+    transform: scale(1.5);
+    font-size: larger;
+}

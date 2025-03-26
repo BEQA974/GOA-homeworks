@@ -1,0 +1,11 @@
+div{
+    background-color: rgb(255, 0, 0);
+    height: 150px;
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+
+div:active{
+    transform: rotate(100deg);
+}

@@ -1,0 +1,21 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+}
+
+button{
+    background-color: darksalmon;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    color: black;
+    transition: transform 0.3s;
+}
+
+button:hover{
+    transform: scale(0.8);
+}

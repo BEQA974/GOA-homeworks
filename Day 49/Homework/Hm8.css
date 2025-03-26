@@ -1,0 +1,12 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 247, 255);
+    border: 5px solid black;
+    padding: 20px;
+    transition: padding 0.3s;
+}
+
+div:hover{
+    padding: 50px;
+}
