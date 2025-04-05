@@ -1,0 +1,43 @@
+#contact{
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#contact h2{
+    color: #333;
+    text-align: center;
+}
+
+#contact p{
+    color: #333;
+    text-align: center;
+}
+
+#contact form{
+    display: flex;
+    flex-direction:column 
+}
+
+#contact input, #contact textarea{
+    border:solid #333 1px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#contact button{
+    background-color: rgb(109, 1, 1);;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    transition: background-color 0.3s ease;
+}
+
+#contact button:hover{
+    background-color: rgb(155, 72, 72);
+}

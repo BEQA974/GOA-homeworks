@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 138, 0);
+    animation-name:bg-and-deg-change;
+    animation-duration: 10s;
+    border-radius: 100px;
+}
+
+@keyframes bg-and-deg-change{
+    0% {
+        transform: translate(0px,0px) scale(0.5);
+    }
+    20% {
+        transform: translate(100px,0px) scale(1);
+    }
+    40% {
+        transform: translate(200px,0px) scale(0.5);
+    }
+    60% {
+        transform: translate(300px,0px) scale(1);
+    }
+    80% {
+        transform: translate(400px,0px) scale(0.5);
+    }
+    100%{
+        transform: translate(500px,0px) scale(1);
+    }
+}
