@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "hero hero hero box3"
+    "hero hero hero box4"
+    "box2 box2 box2 box2"
+    "box5 box6 box7 box8"
+    "box9 box9 box9 box9";
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.box1 {
+    grid-area: hero;
+    background: linear-gradient(135deg, #ff9afc, #e176f7);
+}
+
+.box2 {
+    grid-area: box2;
+    background: linear-gradient(135deg, #ddaaff, #c57bff);
+}
+
+.box3 {
+    grid-area: box3;
+    background: linear-gradient(135deg, #7de2fc, #b9b6ff);
+}
+
+.box4 {
+    grid-area: box4;
+    background: linear-gradient(135deg, #6fd6ff, #7aafff);
+}
+
+.box5 {
+    grid-area: box5;
+    background: linear-gradient(135deg, #ffb692, #ff82a9);
+}
+
+.box6 {
+    grid-area: box6;
+    background: linear-gradient(135deg, #ffb692, #ff82a9);
+}
+
+.box7 {
+    grid-area: box7;
+    background: linear-gradient(135deg, #ffb692, #ff82a9);
+}
+
+.box8 {
+    grid-area: box8;
+    background: linear-gradient(135deg, #ffb692, #ff82a9);
+}
+
+.box9 {
+    grid-area: box9;
+    background: linear-gradient(135deg, #ffb692, #ff82a9);
+}

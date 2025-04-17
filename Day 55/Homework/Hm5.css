@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    animation:bg-and-deg-change 5s linear infinite;
+    border: 6px solid #ccc;
+    border-top: 6px solid #333;
+    border-radius: 50%;
+    border-bottom: #333 6px solid;
+    margin: 50px auto;
+}
+
+@keyframes bg-and-deg-change{
+    from{
+        transform: translateX(0px)  rotate(360deg); 
+    }
+    50%{
+        transform: translate(500px)  rotate(180deg); 
+    }
+    to{
+        transform: translateX(0px)   rotate(360deg); 
+    }
+}
+
+
+
+
+
