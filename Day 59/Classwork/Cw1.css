@@ -1,0 +1,14 @@
+#myDiv {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 20px auto;
+    transition: width 0.5s; /* რომ ლამაზად გაიზარდოს */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+}

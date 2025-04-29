@@ -1,0 +1,1 @@
+print((lambda x: x*2)(int(input("enter num: "))))
