@@ -1,0 +1,14 @@
+JavaScript ვხმარობთ ვებსაიტზე ინტერაქტიულობისთვის – რომ ღილაკზე დაჭერისას ანიმაცია, შეტყობინება ან სხვა მოქმედება მოხდეს. 
+
+MERN = MongoDB (ბაზა) + Express (სერვერი) + React (ინტერფეისი) + Node (სერვერის პლატფორმა)
+
+1 ინლაინი – ატრიბუტში, მაგალითად ღილაკზე:
+<button onclick="alert('Hello')">Click me</button>
+
+2 შიდა (Internal) – <script> თეგში HTML ფაილში:
+<script>
+  alert('Hello');
+</script>
+
+3 გარე (External) – ცალკე .js ფაილში და HTML-იდან ვუკავშირებთ:
+<script src="app.js"></script>
