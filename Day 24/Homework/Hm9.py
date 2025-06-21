@@ -17,4 +17,4 @@ draw_square(100,-300)
 
 
 
-exitonclick
+exitonclick()
