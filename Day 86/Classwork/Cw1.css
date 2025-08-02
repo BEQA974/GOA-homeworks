@@ -1,0 +1,133 @@
+    @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+    body {
+    background-color: hsl(221, 100%, 96%);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: 500;
+    font-weight: 700;
+    font-style: 800;
+    margin: 0;
+    padding: 0;
+    }
+
+    .Main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    }
+
+    .Result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    width: 300px;
+    height: 400px;
+    border-radius: 5%;
+    }
+
+    .Result h3 {
+    color: hsl(241, 100%, 89%);
+    }
+
+    .Score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    color: hsl(241, 100%, 89%);
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    }
+
+    .Score b {
+    font-size: xx-large;
+    color: white;
+    }
+
+    .DetailedSummary {
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    }
+
+    .DetailedSummary b {
+    font-size: x-large;
+    color: white;
+    }
+
+    .Summary {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    }
+
+    .SummaryDetailed {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    }
+
+    .Reaction,
+    .Memory,
+    .Verbal,
+    .Visual {
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    height: 40px;
+    width: 190px;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .Reaction {
+    background-color: hsla(0, 100%, 67%, 0.3);
+    }
+
+    .Memory {
+    background-color: hsla(39, 100%, 56%, 0.3);
+    }
+
+    .Verbal {
+    background-color: hsla(166, 100%, 37%, 0.3);
+    }
+
+    .Visual {
+    background-color: hsla(234, 85%, 45%, 0.3);
+    }
+
+    .ImgText {
+    display: flex;
+    gap: 2px;
+    width: 60px;
+    }
+
+    button {
+    width: 190px;
+    height: 35px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 15px;
+    color: white;
+    border: none;
+    }
+
+    button:hover {
+    cursor: grab;
+    background: linear-gradient(to top, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }

@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(0, 0%, 81%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.Main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.DJ, .JP {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.LeftPart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1;
+}
+
+.RightPart {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Daniel, .Jonathan, .Jeanette, .Patrick, .Kira {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 6px, 
+                rgba(0, 0, 0, 0.12) 0px 1px 3px;
+    padding: 20px;
+}
+
+
+.Daniel {
+    background-color: hsl(263, 55%, 52%);
+    color: white;
+    flex: 2;
+}
+
+.Jonathan {
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    flex: 1;
+}
+
+.Jeanette {
+    background-color: white;
+    color: black;
+    flex: 1;
+}
+
+.Patrick {
+    background-color: hsl(219, 29%, 14%);
+    color: white;
+    flex: 2;
+}
+
+.Kira {
+    background-color: white;
+    color: black;
+    flex: 1;
+    min-width: 280px;
+}
+
+
+.upperPart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid hsla(0, 0%, 81%, 0.6);
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+p {
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 81%);
+}
