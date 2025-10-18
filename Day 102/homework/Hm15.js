@@ -1,0 +1,1 @@
+console.log(today.getFullYear() === 2025);

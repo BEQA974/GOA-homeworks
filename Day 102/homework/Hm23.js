@@ -1,0 +1,1 @@
+alert("მიმდინარე წამებია: " + now.getSeconds());

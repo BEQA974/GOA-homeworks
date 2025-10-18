@@ -1,0 +1,1 @@
+alert("მიმდინარე თვეა: " + today.getMonth());

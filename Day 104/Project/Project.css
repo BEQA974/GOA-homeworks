@@ -1,0 +1,205 @@
+body {
+    background-color: rgb(11, 21, 46);
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: rgb(11, 21, 46);
+    padding: 10px;
+    color: rgb(255, 255, 255); 
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 30%;
+    padding: 24px;
+    position: relative;
+    color: white; 
+}
+
+.div img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.div p {
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    width: 50%;
+    margin: 0;
+    font-size: 14px;
+}
+
+.div h4{
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    width: 50%;
+    margin: 0;
+}
+
+.ferrari { background-color: #ff2800; }
+.mercedes { background-color: #00d2be; }
+.haas { background-color: #bd1e1e; }
+.alpine { background-color: #177bc7; }
+.astonmartin { background-color: #1e8457; }
+.rbteam { background-color: #0c4e77; } 
+.redbull { background-color: #083652; }
+.kicksauber { background-color: #45b80f; }
+.mclaren { background-color: #ff7f50; }
+.williams { background-color: #0f0f74; }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color:rgb(11, 21, 46);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+a{
+    color:rgb(255,255,255);
+    background-color:rgb(11, 21, 46);
+    text-decoration: none;
+    transition: transform 0.3s;
+    margin-top: -20px;
+}
+
+a:hover{
+    color:rgb(194, 190, 190);
+    transform: scale(1.2);
+}
+
+.div:last-child {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#MERCEDES{
+    background-color: #00d2be;
+    position: absolute;
+    right: 100px;
+}
+#MERCEDES:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#FERRARI{
+    background-color:#ff2800 ;
+    position: absolute;
+    right: 100px;
+}
+#FERRARI:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#HAAS{
+    background-color:#bd1e1e ;
+    position: absolute;
+    right: 100px;
+}
+#HAAS:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#ALPINE{
+    background-color:#177bc7;
+    position: absolute;
+    right: 100px;
+}
+#ALPINE:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#ASTON-MARTIN{
+    background-color:#1e8457;
+    position: absolute;
+    right: 100px;
+}
+#ASTON-MARTIN:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#RB-TEAM{
+    background-color:#0c4e77;
+    position: absolute;
+    right: 100px;
+}
+#RB-TEAM:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#RED-BULL{
+    background-color:#083652;
+    position: absolute;
+    right: 100px;
+}
+#RED-BULL:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#KICK-SAUBER{
+    background-color:#45b80f;
+    position: absolute;
+    right: 100px;
+}
+#KICK-SAUBER:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#MCLAREN{
+    background-color:#ff7f50;
+    position: absolute;
+    right: 100px;
+}
+#MCLAREN:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+#WILLIAMS{
+    background-color:#0f0f74;
+    position: absolute;
+    right: 100px;
+}
+#WILLIAMS:hover{
+    color:rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
